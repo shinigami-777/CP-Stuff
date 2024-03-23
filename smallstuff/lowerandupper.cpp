@@ -15,3 +15,11 @@ for (int b = z; b >= 1; b /= 2) {
 while (!ok(x+b)) x += b;
 }
 int k = x+1;
+
+//to find the maxima of a function that is first increasing then decreasing
+int x = -1;
+for (int b = z; b >= 1; b /= 2) {
+while (f(x+b) < f(x+b+1)) x += b;
+}
+int k = x+1;
+
