@@ -1,0 +1,40 @@
+Algorithm
+1. Dijkstra  - to find shortest path from a single source to multiple destinations.
+2.Bellman Ford - multiple source to multiple destination shortest path.
+3. Disjoint Set Union.
+4. Minnimum Spanning tree
+5. Directed Acyclic graph.
+6. Topological Sort.
+
+A tree is a connected graph that consists of n nodes and n − 1 edges. There is
+a unique path between any two nodes of a tree.
+A tree is a graph that has no cycle.
+
+
+Strongly connected componenets.
+How to find strongly connected components (do on ur own)
+
+No child, u must be a leaf.
+depth- from root to that node the no. of edges in between.
+height- from any leaf node to that node (the longest possible path) ,the no. edges in between
+LCA- lowest common ancestor
+
+representation is in adjacency matrix and adjacency list.
+space for matrix -O(V*V)
+list- O(V+E)
+
+DFS
+Traversal...going depth first from lets say root node. After completing depth come back and go again from a diff node.
+The dfs order depends on what adjacent node u choose to visit.
+
+https://visualgo.net/en  --> use this..cool website
+
+I also learnt that we can use tuple in c++...i am soo dumb
+vector<tuple<int,int,int>> edges;      this if u want to store weighted edges list
+
+DFS in a tree. find hright and depth through dfs.
+depth (start dfs from root node and go)  height(start dfs from last leaf node and go)
+
+Subtree problems:
+every node has a value
+subtreee sum. Eg: Query type questions.
