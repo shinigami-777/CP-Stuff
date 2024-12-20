@@ -1,6 +1,6 @@
 Algorithm
 1. Dijkstra  - to find shortest path from a single source to multiple destinations.
-2.Bellman Ford - multiple source to multiple destination shortest path.
+2. Bellman Ford - multiple source to multiple destination shortest path.
 3. Disjoint Set Union.
 4. Minnimum Spanning tree
 5. Directed Acyclic graph.
@@ -38,3 +38,6 @@ depth (start dfs from root node and go)  height(start dfs from last leaf node an
 Subtree problems:
 every node has a value
 subtreee sum. Eg: Query type questions.
+
+Disjoint set data structure:
+Use for dynamic graph...
